@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package main;
+
+
+message Data {
+    string title = 1;
+    string date = 2;
+    string uuid = 3;
+}
+
+message Response {
+    string request = 1;
+    bytes response = 2;
+}

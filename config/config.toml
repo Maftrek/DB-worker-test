@@ -1,0 +1,21 @@
+[ServerOpt]
+  ReadTimeout = "10s"
+  WriteTimeout = "10s"
+  IdleTimeout = "10s"
+
+[NatsServer]
+  Address = "0.0.0.0:4222"
+
+[SQLDataBase]
+  Server = "0.0.0.0"
+  Database = "postgres"
+  ApplicationName = ""
+  MaxIdleConns = 20
+  MaxOpenConns = 20
+  ConnMaxLifetime = "5m"
+  Port = 5432
+
+[NoSQLDataBase]
+  Server = "0.0.0.0"
+  Port = 27017
+  Database = "admin"
