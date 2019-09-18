@@ -58,6 +58,7 @@ body (json)
 ---
 Есть возможность развернуть докер образ, но в этом случае потребуется иметь nats-streaming-server и postgres не локально. Если условие выполняется то адреса nats-streaming-server и postgres необходимо прописать в config/config.toml
 
+```
 [NatsServer]
   Address = "АДРЕСС NATS"
 
@@ -74,7 +75,8 @@ body (json)
   Server = АДРЕСС MONGO"
   Port = 27017
   Database = "test"
-  
+```
+
 Так же потребуется создать Для postgres пользователя - CREATE USER role_1 WITH PASSWORD '1';
 Для mongo db необходимо будет выплнить настройку, описанную выше
 
