@@ -77,7 +77,9 @@ body (json)
   
 Так же потребуется создать Для postgres пользователя - CREATE USER role_1 WITH PASSWORD '1';
 Для mongo db необходимо будет выплнить настройку, описанную выше
+
 ---
+
 Для запуска докер образа необходимо выполнить в директории программы:
 
 1) CGO_ENABLED=0 GOOS=linux go build -o main .
