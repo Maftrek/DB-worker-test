@@ -1,12 +1,12 @@
 package application
 
 import (
+	"DB-worker-test/models"
 	"bytes"
 	"encoding/json"
 	"github.com/gorilla/mux"
 	"io/ioutil"
 	"net/http"
-	"template_1/models"
 )
 
 // хелф хендлер для кубера

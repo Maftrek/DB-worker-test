@@ -1,6 +1,7 @@
 package repository
 
 import (
+	"DB-worker-test/models"
 	"context"
 	"encoding/json"
 	"fmt"
@@ -10,10 +11,9 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"io/ioutil"
 	"log"
-	"template_1/models"
 	"time"
 
-	"template_1/provider"
+	"DB-worker-test/provider"
 )
 
 // Repository interface

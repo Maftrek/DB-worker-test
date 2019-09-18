@@ -1,8 +1,8 @@
 package service
 
 import (
-	"template_1/models"
-	"template_1/repository"
+	"DB-worker-test/models"
+	"DB-worker-test/repository"
 )
 
 // Service interface
@@ -53,6 +53,6 @@ func (s *service) UpdateNews(oldTitle string, newTitle string) ([]byte, error) {
 	return s.repNatsStreaming.MongoUpdateNews(oldTitle, newTitle)
 }
 
-func (s *service) GetNewsAll() ([]byte, error){
+func (s *service) GetNewsAll() ([]byte, error) {
 	return s.repNatsStreaming.MongoDatabaseGetAllNews()
 }

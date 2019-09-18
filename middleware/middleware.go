@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"template_1/prometheus"
+	"DB-worker-test/prometheus"
 )
 
 // statusRecorder recodrs response status

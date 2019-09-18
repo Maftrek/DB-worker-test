@@ -11,11 +11,11 @@ import (
 	"github.com/go-kit/kit/log"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 
+	"DB-worker-test/middleware"
+	"DB-worker-test/models"
+	"DB-worker-test/prometheus"
+	"DB-worker-test/service"
 	"github.com/gorilla/mux"
-	"template_1/middleware"
-	"template_1/models"
-	"template_1/prometheus"
-	"template_1/service"
 )
 
 // Application struct

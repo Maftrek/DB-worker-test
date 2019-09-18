@@ -1,16 +1,16 @@
 package main
 
 import (
+	"DB-worker-test/application"
+	"DB-worker-test/models"
+	"DB-worker-test/provider"
+	"DB-worker-test/repository"
+	"DB-worker-test/service"
 	"fmt"
 	"os"
-	"template_1/application"
-	"template_1/models"
-	"template_1/provider"
-	"template_1/repository"
-	"template_1/service"
 
+	"DB-worker-test/prometheus"
 	"github.com/go-kit/kit/log"
-	"template_1/prometheus"
 )
 
 var (

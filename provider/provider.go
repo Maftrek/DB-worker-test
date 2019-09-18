@@ -1,13 +1,13 @@
 package provider
 
 import (
+	"DB-worker-test/models"
 	"context"
 	"database/sql"
 	"fmt"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
 	"log"
-	"template_1/models"
 	"time"
 
 	_ "github.com/lib/pq"
